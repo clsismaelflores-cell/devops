@@ -2,11 +2,11 @@ name: Iflores
 on: [push]
 
 jobs:
-      hola:
-          runs-on:  ubuntu:latest
+    hola:
+      runs-on:  ubuntu-latest
 
-          steps: 
-          - name: Iflores
-            run: echo "Hola Mundo - Iflores 123"
+      steps: 
+      - name: Iflores
+        run: echo "Hola Mundo - Iflores 123"
 
           
